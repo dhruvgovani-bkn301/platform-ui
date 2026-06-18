@@ -3,7 +3,7 @@
 // Updated by platform-kmp CI on each release.
 import PackageDescription
 
-let release = "0.1.0-SNAPSHOT"
+let release = "0.1.1-SNAPSHOT"
 let baseURL = "https://github.com/dhruvgovani-bkn301/platform-ui/releases/download/\(release)"
 
 let package = Package(
