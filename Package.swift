@@ -1,8 +1,7 @@
 // swift-tools-version: 5.9
-// Distribution-only SPM manifest — no platform source in this repo.
 import PackageDescription
 
-let release = "0.1.2-SNAPSHOT"
+let release = "0.1.3-SNAPSHOT"
 let baseURL = "https://github.com/dhruvgovani-bkn301/platform-ui/releases/download/\(release)"
 
 let package = Package(
@@ -17,17 +16,17 @@ let package = Package(
         .binaryTarget(
             name: "DesignKit",
             url: "\(baseURL)/DesignKit.xcframework.zip",
-            checksum: "1e6f3879c87d64ea344c71518be63ba672abbd8aae296b8bbad81b15a79224af"
+            checksum: "50b71637c31165e4c1f6924dd56da898d7534cafab153a2e2bd5c74ad46a0fd8"
         ),
         .binaryTarget(
             name: "AccountsUI",
             url: "\(baseURL)/AccountsUI.xcframework.zip",
-            checksum: "5df77d8792f02f9b37f0645c53464bfe0e2b1a30640861c2b5ac94e072bbd4cc"
+            checksum: "62f1bc50210d26d45a4c429264429f79a01e39a539caf14c5ecee11fe91e0835"
         ),
         .binaryTarget(
             name: "CardsUI",
             url: "\(baseURL)/CardsUI.xcframework.zip",
-            checksum: "e5eda7aeae17e18b04264bb9723a5da2bab88f0b24184ec8e03102c987fd89da"
+            checksum: "a5995ae1a37e855b02c86039de458d2090203a93fb3c25cd7fadc6f6baaa5cc7"
         ),
     ]
 )
