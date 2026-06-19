@@ -1,7 +1,7 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-let release = "0.1.6-SNAPSHOT"
+let release = "0.1.7-SNAPSHOT"
 let baseURL = "https://github.com/dhruvgovani-bkn301/platform-ui/releases/download/\(release)"
 
 let package = Package(
@@ -16,17 +16,17 @@ let package = Package(
         .binaryTarget(
             name: "DesignKit",
             url: "\(baseURL)/DesignKit.xcframework.zip",
-            checksum: "5b866e738dd9c38b6dac2022409d3451551f73cb8be77714effd4c58b57b3809"
+            checksum: "4781a6256a81c5b11506fbc2c88b4700b04878129441c7b30debc7fe65ea9073"
         ),
         .binaryTarget(
             name: "AccountsUI",
             url: "\(baseURL)/AccountsUI.xcframework.zip",
-            checksum: "964286748f73897e3a3523fb7080fe42033527244899ab6a43326ad1eedd58bb"
+            checksum: "01d90b87b5251bdecc8fab2a3eb48a142f42043b88d6dbfa92aa5a7cab1984d5"
         ),
         .binaryTarget(
             name: "CardsUI",
             url: "\(baseURL)/CardsUI.xcframework.zip",
-            checksum: "0e84e61cfbc2581774f4cf621bb2a3b451a499355b527e43fd5f355a267b9457"
+            checksum: "6c204e0ee73647371ce1756da5f225620133a0f3e5726757e08a8193c1a7cf07"
         ),
     ]
 )
