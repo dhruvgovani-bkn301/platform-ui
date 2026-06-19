@@ -1,1 +1,1 @@
-@_exported import AccountsUIBinary
+@_exported import AccountsUI

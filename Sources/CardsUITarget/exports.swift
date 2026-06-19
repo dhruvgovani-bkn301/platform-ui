@@ -1,1 +1,1 @@
-@_exported import CardsUIBinary
+@_exported import CardsUI
