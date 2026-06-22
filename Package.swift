@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "DesignKit",
             url: "\(baseURL)/DesignKit.xcframework.zip",
-            checksum: "a080a55ab2b95229deaa4f97c6d629a2b896795e9faadb7941de555caad8e99f"
+            checksum: "90ddb70797ff1dc64be94f6f18ab3d08c5c1c71c826223c50609c68ca4962edc"
         ),
         .binaryTarget(
             name: "AccountsUI",
