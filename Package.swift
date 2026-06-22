@@ -1,7 +1,7 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-let release = "0.1.11-SNAPSHOT"
+let release = "0.1.12-SNAPSHOT"
 let baseURL = "https://github.com/dhruvgovani-bkn301/platform-ui/releases/download/\(release)"
 
 let package = Package(
@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "DesignKit",
             url: "\(baseURL)/DesignKit.xcframework.zip",
-            checksum: "90ddb70797ff1dc64be94f6f18ab3d08c5c1c71c826223c50609c68ca4962edc"
+            checksum: "2548f317d8336c914c3fd417daf61f3270a657e38fa9f6b09dc107daaafcdff8"
         ),
         .binaryTarget(
             name: "AccountsUI",
